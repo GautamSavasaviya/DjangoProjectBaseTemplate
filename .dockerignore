@@ -1,0 +1,27 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Django specific
+db.sqlite3
+media/
+static_collected/
+
+# IDE specific
+.idea/
+.vscode/
+
+# Git specific
+.git/
+.gitignore
+
+# Other
+*.log
+tmp/
